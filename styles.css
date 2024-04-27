@@ -1,0 +1,74 @@
+body {
+  padding: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.grid {
+  height: 400px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #dcd6bc;
+  margin: 40px auto;
+  border: 10px solid #dcd6bc;
+}
+
+div {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgb(236, 52, 52);
+}
+
+.valid {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+}
+
+.bomb {
+  border: 5px solid;
+  border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+}
+
+.checked {
+  border: 2px solid #9c998d;
+}
+
+.one {
+  color: #e76346;
+}
+
+.two {
+  color: #4199d3;
+}
+
+.three {
+  color: #57da59;
+}
+
+.four {
+  color: #bb41d3;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+    margin: 0;
+  }
+
+  .grid {
+    margin: 0 auto;
+  }
+}
